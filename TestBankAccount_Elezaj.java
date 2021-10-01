@@ -56,24 +56,3 @@ public class TestBankAccount_Elezaj {
 
 }
 
-//Admittedly, week 11's lesson has been a little difficult for me to grasp. I've
-//gotten use to working with just one program at a time, so dealing with
-//two that are intertwined with one another has been hard but genuinely a lot
-//of fun and has made me realize how much I enjoy computer science. With that being said,
-//I first dealt with the changes needed to be made on BankAccount_Elezaj (explained there).
-//Here, I decided to work with account 5 since we have not done anything with it
-//yet. I first set the balance to 200. I was able to use what we did in account 6 and
-//replicate it with account 5. I then set the account number to "1234567", as 
-//asked in the homework, and set the interest to -50. Then, I withdrew 400 from
-//account 5. Because account 5 had a balance of 200, withdrawing 400 would enter you in overdraft
-//mode. Your current balance at this point would be -200, but it would be
-//a success because the policy allows someone to withdraw up to $500. Now, however, 
-//the owner of the account wants to withdraw another 300. This would not be covered
-//by the overdraft policy, because this would mean they had withdrew 700, which
-//is over the 500 limit. This would then print an error message. Finally, the 
-//owner wants to deposit 2000, which would work and would end in a balance of 
-//1500. They may now withdraw if needed. 
-
-//This lesson has definitely pushed me out of my comfort zone, but it was enjoyable
-//and I'm excited to see how I can better my methods for the exam and project.
-
